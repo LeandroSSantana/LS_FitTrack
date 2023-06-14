@@ -1,0 +1,22 @@
+@model Exercicio
+
+<h1>Detalhes do Exercício</h1>
+
+<table>
+    <tr>
+        <td class="form-label">ID:</td>
+        <td>@Model.ExercicioId</td>
+    </tr>
+    <tr>
+        <td class="form-label">Nome:</td>
+        <td>@Model.Nome</td>
+    </tr>
+    <tr>
+        <td class="form-label">Músculo:</td>
+        <td>@Model.Musculo</td>
+    </tr> 
+</table>
+<br/>
+<div class="page-container">
+    <a href="javascript:history.back()" class="btn btn-secondary">Voltar</a>
+</div>

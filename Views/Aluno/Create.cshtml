@@ -1,0 +1,60 @@
+@{ Layout = "/Views/Shared/_Layout.cshtml"; }
+
+<style>
+    .form-control {
+        width: 100%;
+    }
+
+    .custom-form {
+        width: 470px; 
+        margin: 0 auto; 
+    }
+
+    .button-group {
+        margin-top: 20px; 
+    }
+</style>
+
+<h1 style="text-align: center;">Cadastro de Alunos</h1>
+
+<div class="d-flex justify-content-center">
+    <form class="form custom-form" action="/aluno/create" method="POST">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" name="nome" id="nome" required />
+        </div>
+
+        <div class="form-group">
+            <label for="idade">Idade</label>
+            <input type="number" class="form-control" name="idade" id="idade" required />
+        </div>
+
+        <div class="form-group">
+            <label for="altura">Altura</label>
+            <input type="number" step="0.01" class="form-control" name="altura" id="altura" required />
+        </div>
+
+        <div class="form-group">
+            <label for="peso">Peso</label>
+            <input type="number" step="0.01" class="form-control" name="peso" id="peso" required />
+        </div>
+
+        <div class="form-group">
+            <label for="genero">Gênero</label>
+            <select class="form-control" name="genero" id="genero" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email" id="email" required />
+        </div>
+
+        <div class="text-center button-group">
+            <button class="btn btn-primary">Salvar</button>
+            <a href="javascript:history.back()" class="btn btn-secondary">Voltar</a>
+        </div>
+    </form>
+</div>

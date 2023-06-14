@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LS_FitTrack
+build_property.RootNamespace = LS_FitTrack
+build_property.ProjectDir = c:\Users\marif\Área de Trabalho\Leandro\Projeto Faculdade\LS_FitTrack\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\marif\Área de Trabalho\Leandro\Projeto Faculdade\LS_FitTrack
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Aluno/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Aluno/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Aluno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Aluno/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Exercicio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Exercicio/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Exercicio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Exercicio/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/TreinoExercicio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vRXhlcmNpY2lvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/TreinoExercicio/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vRXhlcmNpY2lvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/TreinoExercicio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vRXhlcmNpY2lvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/TreinoExercicio/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vRXhlcmNpY2lvXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Treino/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Treino/CreateTreino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXENyZWF0ZVRyZWluby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Treino/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Treino/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Treino/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marif/Área de Trabalho/Leandro/Projeto Faculdade/LS_FitTrack/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bpwadlfysn

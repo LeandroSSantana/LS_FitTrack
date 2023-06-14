@@ -1,0 +1,93 @@
+@model List<Treino>
+@{ Layout = "/Views/Shared/_Layout.cshtml"; }
+
+<style>
+    .header {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .page-container {
+        padding: 20px;
+    }
+
+    .form-container {
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-control {
+        width: 300px;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .table th,
+    .table td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .table a {
+        text-decoration: none;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<div class="page-container">
+    <h1 class="header">Treinos</h1>
+
+    <div class="form-container">
+        <form action="/treino/search" method="post">
+            <div class="form-group">
+                <input type="text" name="searchKeyword" class="form-control" placeholder="Treinos">
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+    </div>
+
+    <table class="table">
+        @foreach (Treino t in Model)
+        {
+            <tr>
+                <td>@t.TreinoId</td>
+                <td>@t.AlunoId</td>
+                <td>@t.Descricao</td>
+                <td>@t.DiaSemana</td>
+                <td><a href="/treino/details/@t.TreinoId">Detalhes</a></td>
+                <td><a href="/treino/update/@t.TreinoId">Editar</a></td>
+                <td><a href="/treino/delete/@t.TreinoId" class="btn btn-warning" onclick="return confirm('Deseja excluir o exercicio selecionado?')">Excluir</a></td>
+            </tr>
+        }
+    </table>
+
+    <a class="btn btn-primary" href="/treino/create">Adicionar</a>
+    <a href="javascript:history.back()" class="btn btn-secondary">Voltar</a>
+</div>
+

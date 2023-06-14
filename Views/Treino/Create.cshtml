@@ -1,0 +1,55 @@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .form-control {
+        width: 100%;
+    }
+
+    .custom-form {
+        width: 470px;
+        margin: 0 auto;
+    }
+
+    .button-group {
+        margin-top: 20px;
+    }
+</style>
+
+<h1 style="text-align: center;">Cadastrar Novo Treino</h1>
+
+<div class="d-flex justify-content-center">
+    <form class="form custom-form" asp-controller="Treino" asp-action="Create" method="POST">
+        <div class="form-group">
+            <label for="alunoId">Nome Aluno</label>
+                       
+            <input type="hidden" class="form-control" name="alunoId" id="alunoId" value="@ViewBag.AlunoId" required />
+            <input type="text" class="form-control" value="@ViewBag.NomeAluno" disabled />            
+        </div>
+
+        <div class="form-group">
+            <label for="nome">Nome do Treino</label>
+            <input type="text" class="form-control" name="descricao" id="descricao" required />
+        </div>
+
+        <div class="form-group">
+            <label for="musculo">Dia da Semana</label>
+            <select class="form-control" name="diaSemana" id="diaSemana" required>
+                <option value="Segunda-Feira">Segunda-Feira</option>
+                <option value="Terça-Feira">Terça-Feira</option>
+                <option value="Quarta-Feira">Quarta-Feira</option>
+                <option value="Quinta-Feira">Quinta-Feira</option>
+                <option value="Sexta-Feira">Sexta-Feira</option>
+                <option value="Sábado">Sábado</option>
+                <option value="Domingo">Domingo</option>
+            </select>
+        </div>
+
+        <div class="text-center button-group">
+            <button class="btn btn-primary">Salvar</button>
+            <a href='@Url.Action("Index", "Home")' class="btn btn-primary">Voltar</a>
+        </div>
+    </form>
+</div>
+

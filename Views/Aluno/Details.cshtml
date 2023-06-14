@@ -1,0 +1,87 @@
+@model Aluno
+
+<style>
+    .form-label {
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    .btn-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .btn-container .btn {
+        margin-right: 10px;
+    }
+</style>
+
+<h1>Detalhes do Aluno</h1>
+<table>
+    <tr>
+        <td class="form-label">Aluno ID:</td>
+        <td>@Model.AlunoId</td>
+    </tr>
+    <tr>
+        <td class="form-label">Nome:</td>
+        <td>@Model.Nome</td>
+    </tr>
+    <tr>
+        <td class="form-label">Idade:</td>
+        <td>@Model.Idade</td>
+    </tr>
+    <tr>
+        <td class="form-label">Altura:</td>
+        <td>@Model.Altura</td>
+    </tr>
+    <tr>
+        <td class="form-label">Peso:</td>
+        <td>@Model.Peso</td>
+    </tr>
+    <tr>
+        <td class="form-label">Gênero:</td>
+        <td>@Model.Genero</td>
+    </tr>
+    <tr>
+        <td class="form-label">Email:</td>
+        <td>@Model.Email</td>
+    </tr>   
+</table>
+
+</br>
+</br>
+
+<h2>Exercicios do Aluno</h2>
+<form method="GET" action="/Exercicio/Create">
+    <div class="btn-container">
+        <input type="hidden" name="alunoId" value="@Model.AlunoId" />
+        <input type="hidden" name="nomeAluno" value="@Model.Nome" />  
+        <button type="submit" class="btn btn-primary">Criar Exercicio</button>
+        <a href="javascript:history.back()" class="btn btn-secondary">Voltar</a>
+    </div>
+</form>
+@foreach (var ex in Model.exercicios)
+{
+    <hr>
+    <table>
+        <tr>
+            <td class="form-label">Dia</td>
+            <td>@ex.Dia</td>
+        </tr>
+        <tr>
+            <td class="form-label">Músculo</td>
+            <td>@ex.Musculo</td>
+        </tr>
+        <tr>
+            <td class="form-label">Exercício</td>
+            <td>@ex.Nome</td>
+        </tr>
+        <tr>
+            <td class="form-label">Repetição</td>
+            <td>@ex.Repeticao</td>
+        </tr>
+    </table>
+    <hr>
+}
+</br>
+</br>
+

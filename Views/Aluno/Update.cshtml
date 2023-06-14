@@ -1,0 +1,45 @@
+@model Aluno
+@{ Layout = "/Views/Shared/_Layout.cshtml"; }
+
+<h1>Atualização de Aluno</h1>
+
+<form action="/aluno/update/@Model.AlunoId" method="POST">
+
+    <input type="hidden" name="AlunoId" value="@Model.AlunoId" />
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" name="nome" id="nome" value="@Model.Nome" required />
+    </div>
+    
+    <div class="form-group">
+        <label for="idade">Idade</label>
+        <input type="number" class="form-control" name="idade" id="idade" value="@Model.Idade" required />
+    </div>
+
+    <div class="form-group">
+        <label for="altura">Altura</label>
+        <input type="text" step="0.01" class="form-control" name="altura" id="altura" value="@Model.Altura" required />
+    </div>
+
+    <div class="form-group">
+        <label for="peso">Peso</label>
+        <input type="text" step="0.01" class="form-control" name="peso" id="peso" value="@Model.Peso" required />
+    </div>
+
+    <div class="form-group">
+        <label for="genero">Gênero</label>
+        <select class="form-control" name="genero" id="genero" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" id="email" value="@Model.Email" required />
+    </div>
+
+    <button class="btn btn-primary" style="margin-top: 20px">Atualizar</button>
+
+</form>
