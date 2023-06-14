@@ -41,9 +41,6 @@
 <h2 style="color: #333; font-size: 24px;">Contribuição</h2>
 <p>Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs ou melhorias para o projeto, fique à vontade para abrir uma issue ou enviar um pull request.</p>
 
-<h2 style="color: #333; font-size: 24px;">Licença</h2>
-<p>Este projeto está licenciado sob a Licença MIT.</p>
-
 <h2 style="color: #333; font-size: 24px;">Contato</h2>
 <p>Se tiver alguma dúvida ou precisar de mais informações, sinta-se à vontade para entrar em contato:</p>
 
